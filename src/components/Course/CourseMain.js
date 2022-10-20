@@ -45,7 +45,7 @@ const CourseMain = () => {
             <div className="col-xl-9 col-lg-8 col-md-12">
               <div className="row">
                 {dataCourses?.map((item) => (
-                  <div className="col-xl-4 col-lg-6 col-md-6">
+                  <div className="col-xl-4 col-lg-6 col-md-6" key={item.id}>
                     <div className="protfolio-course-2-wrapper mb-30">
                       <div className="student-course-img">
                         <Link href="/course">

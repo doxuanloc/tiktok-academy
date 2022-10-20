@@ -395,7 +395,7 @@ const HeaderUser = ({ setShowHeaderUser }) => {
                             <li>
                               <button
                                 type="button"
-                                class="btn btn-danger"
+                                className="btn btn-danger"
                                 onClick={logout}
                               >
                                 Đăng Xuất
